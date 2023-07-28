@@ -1,3 +1,4 @@
+
 export default function DonationLi(props) {
   const { donations } = props;
 
@@ -11,4 +12,5 @@ export default function DonationLi(props) {
       </li>
     );
   });
+  return DonationLi
 }

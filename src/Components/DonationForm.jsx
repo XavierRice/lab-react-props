@@ -33,3 +33,5 @@ const donationCount = null
     
   );
 };
+
+export default DonationForm

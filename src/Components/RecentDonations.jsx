@@ -1,10 +1,10 @@
 import DonationLi from "./DonationLi";
 
-const RecentDonations = (props) => {
+const RecentDonations = ({donationsObj}) => {
   return (
     <section>
-      <h2>Recent Donations</h2>
-      <ul><DonationLi donations = {donations}/></ul>
+      <h2><em>Recent Donations</em></h2>
+      <ul><DonationLi donations = {donationsObj}/></ul>
     </section>
   );
 };

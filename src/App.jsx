@@ -44,7 +44,7 @@ function App() {
     <>
       <TopBar />
       <main className="container">
-        <section className="sidebar"><RecentDonations donations = {donations}/></section>
+        <section className="sidebar"><RecentDonations donationsObj = {donations}/></section>
         <section className=""><Progress donations={donations} targetAmount={targetAmount}/></section>
       </main>
     </>
