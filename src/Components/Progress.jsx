@@ -15,10 +15,13 @@ const Progress = (props) => {
         <span className="secondary"> ${targetAmount}</span>
       </h2>
       <h3>
-        You could be donation <span class="secondary">#{count}!!!</span>
+        You could be donation <span class="secondary">#{count}!!!</span>   
       </h3>
     </section>
   );
 };
 
 export default Progress;
+
+
+// On line 18 i moved this from the form into here, it fits with the formatting provided and it has access to the information here
