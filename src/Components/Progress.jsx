@@ -1,6 +1,7 @@
 const Progress = (props) => {
   const { donations, targetAmount } = props;
 
+   //reduce?
   let total = 0;
   let count = 0;
   for (let i = 0; i < donations.length; i++) {
